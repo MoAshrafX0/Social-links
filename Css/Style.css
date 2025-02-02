@@ -1,0 +1,41 @@
+:root{
+    --hover-color:hsl(75, 94%, 57%);
+    --bg-color:hsl(0, 0%, 8%);
+    --sec-color:hsl(0, 0%, 12%);
+    --btn-color:hsl(0, 0%, 20%);
+}
+body{
+    font-family: "Inter", serif;
+    
+}
+.social-links{
+    background-color: var(--bg-color);
+    height: 100vh;
+}
+.contant{
+    background-color: var(--sec-color);
+}
+
+p{
+    font-size: .875rem  ;
+    color: var(--hover-color);
+}
+span{
+    font-size: .875rem;
+
+}
+.social-btn button{
+    padding: .625rem 1.25rem;
+    background-color: var(--btn-color);
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.social-btn button:hover{
+    background-color: var(--hover-color);
+    color: black;
+
+}
+
+    
+
